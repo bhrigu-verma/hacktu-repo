@@ -18,7 +18,7 @@ model User {
   username        String
   clerkId         String   @unique
   email           String   @unique
-  mobileNum       Int?
+  mobileNum       String?
   isAdmin         Boolean? @default(false)
   avatarUrl       String?
   userCoins       Int?     @default(0)
