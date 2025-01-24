@@ -1,0 +1,17 @@
+.navii{
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+.signin{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    border-radius: 15px;
+}
